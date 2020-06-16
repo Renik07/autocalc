@@ -1,0 +1,123 @@
+* {
+  font-family: 'Play', sans-serif;
+  font-size: 25px;
+}
+
+.model-name {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.button {
+  display: inline;
+  background-color: rgb(0,61,114);
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(18, 85, 145);
+}
+
+.auto-form {
+  position: absolute;
+  font-family: 'Play', sans-serif;
+  font-size: 25px;
+  right: 80px;
+  color: white;
+}
+
+img {
+  margin-top: 180px;
+  margin-left: 250px;
+}
+
+.imgHolder {
+  height: 755px;
+  position: relative;
+  background-image: url(/image/backgroung_image.jpg);
+  background-position-y: -50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.colorsSelector {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.colorItem {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.colorWhitePure {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.colorWhiteOryx {
+  background-color: rgb(243, 243, 245);
+}
+
+.colorGreyManganese {
+  background-color: rgb(74, 74, 74);
+}
+
+.colorBlackDeep {
+  background-color: rgb(22, 25, 37);
+}
+
+.colorYellowCurcuma {
+  background-color: rgb(199, 158, 8);
+}
+
+.colorGreyUrano {
+  background-color: rgb(53, 53, 55);
+}
+
+.colorSilverReflex {
+  background-color: rgb(199, 200, 202);
+}
+
+.colorSilverPyrit {
+  background-color: rgb(184, 188, 190);
+}
+
+@media (max-width: 1550px) {
+  .imgHolder {
+
+    background-position-x: -180px;
+  }
+
+  img {
+    margin-top: 180px;
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .imgHolder {
+    height: 620px;
+    background-position-x: -380px;
+    background-position-y: -120px;
+  }
+
+  img {
+    margin-top: 120px;
+    margin-left: 0;
+  }
+}
+
+
