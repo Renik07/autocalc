@@ -3,6 +3,11 @@
   font-size: 25px;
 }
 
+.model-summary {
+  width: 1366px;
+  margin: auto;
+}
+
 .model-name {
   font-size: 35px;
   font-weight: 700;
@@ -14,7 +19,7 @@
   padding: 5px;
   border-radius: 5px;
   color: white;
-  margin-left: 20px;
+  margin-left: 20px; 
   cursor: pointer;
 }
 
@@ -26,20 +31,24 @@
   position: absolute;
   font-family: 'Play', sans-serif;
   font-size: 25px;
-  right: 80px;
+  right: 50px;
   color: white;
 }
 
 img {
-  margin-top: 180px;
-  margin-left: 250px;
+  width: 700px;
+  margin-top: 220px;
+  margin-left: 90px;
 }
 
 .imgHolder {
+  width: 1366px;
   height: 755px;
+  margin: auto;
   position: relative;
-  background-image: url(/image/backgroung_image.jpg);
+  background-image: url(/autocalc/image/backgroung_image.jpg);
   background-position-y: -50px;
+  background-position-x: -350px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -93,31 +102,6 @@ label {
 
 .colorSilverPyrit {
   background-color: rgb(184, 188, 190);
-}
-
-@media (max-width: 1550px) {
-  .imgHolder {
-
-    background-position-x: -180px;
-  }
-
-  img {
-    margin-top: 180px;
-    margin-left: 80px;
-  }
-}
-
-@media (max-width: 1366px) {
-  .imgHolder {
-    height: 620px;
-    background-position-x: -380px;
-    background-position-y: -120px;
-  }
-
-  img {
-    margin-top: 120px;
-    margin-left: 0;
-  }
 }
 
 
